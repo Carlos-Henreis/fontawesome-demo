@@ -1,0 +1,40 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+
+mat-toolbar {
+    color: var(--mat-sys-primary);
+    background: var(--mat-sys-primary-container);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.examples-components {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    p {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+    }
+}
+
+mat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  
+    mat-icon {
+      vertical-align: middle;
+      align-content: center;
+      line-height: 1;
+    }
+  }
