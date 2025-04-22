@@ -1,4 +1,3 @@
-
 # Fontawesome Demo
 
 Angular Material + Font Awesome Starter (Standalone)
